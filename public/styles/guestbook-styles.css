@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+#main input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 30%;
+}
+
+.meet {
+  width: 47%;
+}
+
+.message {
+  width: 100%;
+}
+
+.checkbox label {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.checkbox {
+  width: 100%;
+  margin: 5px auto;
+}
+
+.email-format {
+  width: 100%;
+  margin: 5px auto;
+}
+
+.email-format label {
+  margin: 9px;
+}
+
+.main-button {
+  border: none;
+  background-color: green;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.button {
+  margin: 7px;
+}
+
+.err {
+  display: none;
+  color: red;
+}
+
+.other {
+  display: none;
+}
+
+#meet-select {
+  width: 100%;
+}
+
+#emailFormat {
+  display: none;
+}

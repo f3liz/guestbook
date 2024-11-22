@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  color: blue;
+}
+
+a:hover {
+  color: lightblue;
+}
+a::after {
+  color: plum;
+}
